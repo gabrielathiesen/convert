@@ -1,7 +1,5 @@
 function ConvertTemp(direction){
-    var Fobj = document.convert.TempFa;
-    var Cobj = document.convert.TempCe;
-    var Kobj = document.convert.TempKe;
+    var Fobj = document.Convert.TempFa, Cobj = document.Convert.TempCe, Kobj = document.Convert.TempKe;
 
     if (direction== "FtoC"){
         Cobj.value = Math.round((Fobj.value-32)*(5/9));
@@ -20,7 +18,7 @@ function ConvertTemp(direction){
 
 function Limpar()
 {
-    document.convert.TempFa.value="";
-    document.convert.TempCe.value="";
-    document.convert.TempKe.value="";
+    document.Convert.TempFa.value=" ";
+    document.Convert.TempCe.value=" ";
+    document.Convert.TempKe.value=" ";
 }
