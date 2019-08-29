@@ -6,6 +6,11 @@ function ConvertTemp(direction){
     if (direction== "FtoC"){
         Cobj.value = Math.round((Fobj.value-32)*(5/9));
         Kobj.value = Math.round((parseInt(Cobj.value)+459.67)*(5/9));
-    }d
-
+    }
+    else if (direction == "KtoF"){
+        Cobj.value = Math.round((Fobj.value-32)*(5/9));
+        Fobj.value = Math.round((parseInt(Cobj.value)*(9/5))-459.67);
+    }
+    else 
+    
 }
