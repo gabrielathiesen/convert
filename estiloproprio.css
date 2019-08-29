@@ -5,8 +5,8 @@ body {
     
     }  
 .form{
-    border: 100px double pink;
-    background-color: palevioletred;
+    border: 100px double orange;
+    background-color:red;
     padding: 200px;
     text-align:center;    
 }    
