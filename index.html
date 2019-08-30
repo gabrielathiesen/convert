@@ -17,7 +17,61 @@
     tabela.appendChild(corpo);
     document.getElementById("test").appendChild(tabela);
 
-var container = document.getElementById("container")
+var container = document.getElementById("container");
+container.innerHTML = [
+'<table>',
+  '<thead>',
+  '<tr>',
+  '<th> FARENHEINT</th>',
+  '<th> CELCIUS </th>',
+  '<th> KELVIN </th>',
+  '</tr>',
+  '</thead>',
+  '<tbody>',
+  '<tr>',
+  '<td>34</td>',
+  '<td>1</td>',
+  '<td>274</td>',
+  '</tr>',
+  '<tr>',
+  '<td>50</td>',
+  '<td>10</td>',
+  '<td>283</td>',
+  '</tr>',
+  '<tr>',
+  '<td>59</td>',
+  '<td>15</td>',
+  '<td>288</td>',
+  '</tr>',
+  '<tr>',
+  '<td>68</td>',
+  '<td>20</td>',
+  '<td>293</td>',
+  '</tr>',
+  '<tr>',
+  '<td>77</td>',
+  '<td>25</td>',
+  '<td>298</td>',
+  '</tr>',
+  '<tr>',
+  '<td>86</td>',
+  '<td>30</td>',
+  '<td>303</td>',
+  '</tr>',
+  '<tr>',
+  '<td>122</td>',
+  '<td>50</td>',
+  '<td>323</td>',
+  '</tr>',
+  '<tr>',
+  '<td>112</td>',
+  '<td>100</td>',
+  '<td>373</td>',
+  '</tr>',
+  '</tbody>',
+  '</table>'
+].join("\n");
+
 </script>
 <body>
     <div id="container"></div>
