@@ -1,6 +1,6 @@
 body {
 
-    
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: azure;
     font-size: 30px;
@@ -12,3 +12,16 @@ body {
     padding: 200px;
     text-align:center;    
 }    
+table {
+    border: 0,5px white solid;
+    width: 100%;
+  }
+  table th {
+     
+    background-color: yellow;
+    color: orange;
+  }
+  table td {
+    background-color: orange;
+    color:red;
+  }
