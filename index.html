@@ -10,7 +10,15 @@
     <title>Convert</title>
 </head>
 <script>
-var container = document.getElementById("container")</script>
+    var tabela = document.createElement("table");
+    var cabecalho = document.createElement("thead");
+    var corpo = document.createElement("tbody");
+    tabela.appendChild(cabecalho);
+    tabela.appendChild(corpo);
+    document.getElementById("test").appendChild(tabela);
+
+var container = document.getElementById("container")
+</script>
 <body>
     <div id="container"></div>
     <form class="form" name="Convert">
