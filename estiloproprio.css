@@ -1,6 +1,6 @@
 body {
 
-
+background-color: orange; !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: azure;
     font-size: 30px;
@@ -19,9 +19,14 @@ table {
   table th {
      
     background-color: yellow;
-    color: orange;
+    color: #f57600;
   }
   table td {
+    background-color: #f57600;
+    color:red;
+  }
+
+  information {
     background-color: orange;
     color:red;
   }
