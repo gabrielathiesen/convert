@@ -1,0 +1,25 @@
+.bt{
+      
+    border:1px solid orange;
+    border-radius:10px;
+    display:inline-block;
+    cursor:pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    padding:6px 10px;
+    text-decoration: peru;
+    background-color: #f57600;
+   color: white;
+    
+
+}
+
+body {
+
+    background-color: orange; !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: azure;
+        font-size: 30px;
+        
+        }  
