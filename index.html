@@ -17,23 +17,29 @@
 
     <h1>CONVERTA AQUI!</h1>
         FAHRENHEIT:
-        <input type="text" name="TempFa" size="20" onchange="ConvertTemp('FtoC')">
+        <input type="text" name="TempFa" size="10" onchange="ConvertTemp('FtoC')">
+        <p></p>
         CELCIUS: 
-        <input type="text" name="TempCe" size="20" onchange="ConvertTemp('CtoF')">
+       <input type="text" name="TempCe" size="10" onchange="ConvertTemp('CtoF')">
+       <p></p>
         KELVIN: 
-        <input type="text" name="TempKe" size="20" onchange="ConvertTemp('KtoF')">
-        <br/><br/>
-        <input type="Button" value="Clean" onclick="Limpar();">
+      <input type="text" name="TempKe" size="10" onchange="ConvertTemp('KtoF')"> 
+        <br><br/>
+                <input class="botao" type="Button" value="Clean" onclick="Limpar();">
+                <input class="botao" type="button" value="Convert" onclick="Comverter()">
+        
+        
     </form>
 
     <script>
+        //montando a tabela de conversões básicas
             var tabela = document.createElement("table");
             var cabecalho = document.createElement("thead");
             var corpo = document.createElement("tbody");
             tabela.appendChild(cabecalho);
             tabela.appendChild(corpo);
             document.getElementById("test").appendChild(tabela);
-        
+        //inserindo as informações da tabela
         var container = document.getElementById("container");
         container.innerHTML = [
         '<table>',
@@ -88,9 +94,15 @@
           '</tbody>',
           '</table>'
         ].join("\n");
-        
+        // inserindo formula basica
+           // informação teorica sobre as temperaturas
         </script>
+
+        <formula>
+                <h1>T°c/5 = T°f-32/9 = T°k-273/5 </h1>
+        </formula>
         <information>
+         
                 <h1>FAHRENHEINT</h1>
                 <script>document.write("Escala de temperatura onde seu ponto de fusão da água é encontrado no 32 °F e o ponto de ebulição é 212 °F.")</script>
                 <h1>KELVIN</h1>
@@ -98,8 +110,9 @@
                 <h1>CELCIUS</h1>
                 <script>document.write(" Esta escala é baseada nos pontos de fusão e de ebulição da água, aos quais são atribuídos os valores de 0 °C e 100 °C.")</script>
 
-
         </information>
+
+       
 
 </body>
 </html>

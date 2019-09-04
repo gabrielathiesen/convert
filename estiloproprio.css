@@ -1,32 +1,54 @@
 body {
 
-background-color: orange; !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-    font-size: 30px;
+  background-color: orange; !important;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: azure;
+      font-size: 30px;
+      
+      }  
+  .form{
+      border: 100px double orange;
+      background-color: red;
+      padding: 100px;
+      text-align:center;    
     
-    }  
-.form{
-    border: 100px double orange;
-    background-color: red;
-    padding: 200px;
-    text-align:center;    
-}    
-table {
-    border: 0,5px white solid;
-    width: 100%;
+  }    
+  table {
+      border: 0,5px white solid;
+      width: 100%;
+    }
+    table th {
+       
+      background-color: yellow;
+      color: #f57600;
+    }
+    table td {
+      background-color: #f57600;
+      color:red;
+    }
+  formula{
+    color: red;
+    text-align: center;
   }
-  table th {
+    information {
      
-    background-color: yellow;
-    color: #f57600;
-  }
-  table td {
-    background-color: #f57600;
-    color:red;
-  }
-
-  information {
-    background-color: orange;
-    color:red;
-  }
+      color:red;
+    }
+  
+    .botao{
+      
+        border:1px solid orange;
+        border-radius:10px;
+        display:inline-block;
+        cursor:pointer;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight:bold;
+        font-size:20px;
+        padding:6px 10px;
+        text-decoration: peru;
+        background-color: #f57600;
+       color: white;
+        
+  
+    }
+  

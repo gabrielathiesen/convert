@@ -1,3 +1,13 @@
+// botão de limpar os espaços
+
+function Limpar()
+{
+    document.Convert.TempFa.value=" ";
+    document.Convert.TempCe.value=" ";
+    document.Convert.TempKe.value=" ";
+}
+// inserindo as funções para o calculo
+
 function ConvertTemp(direction){
     var Fobj = document.Convert.TempFa, Cobj = document.Convert.TempCe, Kobj = document.Convert.TempKe;
 
@@ -16,9 +26,3 @@ function ConvertTemp(direction){
     
 }
 
-function Limpar()
-{
-    document.Convert.TempFa.value=" ";
-    document.Convert.TempCe.value=" ";
-    document.Convert.TempKe.value=" ";
-}
