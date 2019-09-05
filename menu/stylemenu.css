@@ -6,7 +6,7 @@ body {
      }  
 
      #botaoB{ text-align: center }
-.botaoIrO{
+#botaoIrO{
     cursor:pointer;
     width: 350px;
     text-align: center;
@@ -14,7 +14,7 @@ body {
     border: 1px solid blue;
     border-radius: 6px;
     background-color: lightblue;
-    font-size: 18px;
+    font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: purple;
 }
@@ -27,7 +27,12 @@ body {
     border: 1px solid blue;
     border-radius: 6px;
     background-color: lightskyblue;
-    font-size: 18px;
+    font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: purple;
+}
+.bg{
+    position: center;
+    background: url(https://bankkita.com/images/color-full-png-5.png);
+    height:50vh ;
 }
