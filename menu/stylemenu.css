@@ -19,7 +19,7 @@ body {
     color: purple;
 }
 #botaoA{text-align: center}
-.botaoIrT{
+#botaoIrT{
     cursor:pointer;
     width: 350px;
     text-align: center;
