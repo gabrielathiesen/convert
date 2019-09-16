@@ -6,32 +6,8 @@ body {
     
      }  
 
-     #botaoB{ text-align: center }
-#botaoIrO{
-    cursor:pointer;
-    width: 350px;
-    text-align: center;
-    padding: 15px 20px;
-    border: 1px solid blue;
-    border-radius: 6px;
-    background-color: lightblue;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: purple;
-}
-#botaoA{text-align: center}
-#botaoIrT{
-    cursor:pointer;
-    width: 350px;
-    text-align: center;
-    padding: 15px 20px;
-    border: 1px solid blue;
-    border-radius: 6px;
-    background-color: lightskyblue;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: purple;
-}
+
+
 .bg{
     background: linear-gradient(269deg, #f508d7, #17e60c, #e6a80c, #119a9b, #ceba1b);
     background-size: 1000% 1000%;
@@ -63,4 +39,51 @@ body {
     0%{background-position:0% 32%}
     50%{background-position:100% 69%}
     100%{background-position:0% 32%}
+}
+
+@keyframes bounce {
+    0%,20%,60%,100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(0);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(0);
+        transform: translateY(-10px);
+    }
+}
+.botoes{
+ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.botaoC{
+    cursor:pointer;
+    width: 350px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+background-color:#f18f81;
+
+}
+.botaoC:hover{
+    animation: bounce 2s;
+}
+
+.botaoD{
+        cursor:pointer;
+        width: 350px;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: purple;
+    background-color:#f18f81;
+    
+}
+
+.botaoD:hover{
+    animation:bounce 2s;
 }
