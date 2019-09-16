@@ -3,6 +3,7 @@ body {
     background-color: rgb(147, 76, 212);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    
      }  
 
      #botaoB{ text-align: center }
@@ -32,7 +33,34 @@ body {
     color: purple;
 }
 .bg{
-    position: center;
-    background: url(https://bankkita.com/images/color-full-png-5.png);
-    height:70vh ;
+    background: linear-gradient(269deg, #f508d7, #17e60c, #e6a80c, #119a9b, #ceba1b);
+    background-size: 1000% 1000%;
+    
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    -o-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+    
+    
+   
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
 }
