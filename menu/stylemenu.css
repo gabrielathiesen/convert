@@ -9,7 +9,7 @@ body {
 
 
 .bg{
-    background: linear-gradient(269deg, #f508d7, #17e60c, #e6a80c, #119a9b, #ceba1b);
+    background: linear-gradient(269deg, rgb(211, 44, 44), #e6a80c, purple, #119a9b,  #f07ae0);
     background-size: 1000% 1000%;
     
     -webkit-animation: AnimationName 8s ease infinite;
@@ -63,12 +63,33 @@ body {
 
 .botaoC{
     cursor:pointer;
-    width: 350px;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: purple;
-background-color:#f18f81;
-
+   
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #5c1aeb;
+        padding: 19px 100px;
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#bb2ceb),
+            color-stop(0.55, #e082da),
+            color-stop(0.57, #e36ddf),
+            color-stop(0.90, #c15adb),
+            to(#8f1ed1));
+        background: linear-gradient(
+            top,
+            #bb2ceb 0%,
+            #e082da 55%,
+            #e36ddf 57%,
+            #c15adb 90%,
+            #8f1ed1);
+        border-radius: 26px;
+        border: 6px solid #b256e8;
+        box-shadow:
+            0px 1px 3px rgba(68,74,194,0.5),
+            inset 0px 0px 2px rgba(47,35,219,1);
+        text-shadow:
+            0px -1px 0px rgba(143,87,194,1),
+            0px 1px 0px rgba(255,18,239,1);
 }
 .botaoC:hover{
     animation: bounce 2s;
@@ -76,14 +97,37 @@ background-color:#f18f81;
 
 .botaoD{
         cursor:pointer;
-        width: 350px;
-        font-size: 50px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: purple;
-    background-color:#f18f81;
-    
+        font-family: 'Times New Roman', Times, serif;
+        
+  
+            font-size: 30px;
+            color: #f22308;
+            padding: 19px 100px;
+            background: -webkit-gradient(
+                linear, left top, left bottom,
+                from(#d43d0f),
+                color-stop(0.55, #e8dd05),
+                color-stop(0.57, #dbcd2e),
+                color-stop(0.90, #cca02f),
+                to(#d14d1e));
+            background: linear-gradient(
+                top,
+                #d43d0f 0%,
+                #e8dd05 75%,
+                #dbcd2e 57%,
+                #cca02f 90%,
+                #d14d1e);
+            border-radius: 26px;
+            border: 4px solid #d42d2d;
+            box-shadow:
+                0px 1px 3px rgba(158,123,33,0.5),
+                inset 0px 0px 2px rgba(219,35,35,1);
+            text-shadow:
+                0px -1px 0px rgba(237,3,3,1),
+                0px 1px 0px rgba(194,39,0,1); 
 }
 
 .botaoD:hover{
     animation:bounce 2s;
 }
+
