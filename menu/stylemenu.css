@@ -134,7 +134,7 @@ body {
 .botaoD:hover{
     animation: bounce 2s;
 } 
-//nao funciona essa merda
+
 /*.botaoD{ 
         cursor:pointer;
         font-family: 'Times New Roman', Times, serif;
